@@ -8,4 +8,4 @@ jobs:
       - name: "Hello"
         run: echo "Hello, Github Actions"
       - name: "Display Repo name"
-        run: echo "This workflow is running in ${github.repository}"
+        run: echo "This workflow is running in ${{github.repository}}"
